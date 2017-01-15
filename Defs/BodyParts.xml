@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>LeftSightSensor</defName>
+    <label>left sight sensor</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>BionicEye</spawnThingOnRemoved>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <activities>
+      <li>Sight_source</li>
+    </activities>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightSightSensor</defName>
+    <label>right sight sensor</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>BionicEye</spawnThingOnRemoved>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <activities>
+      <li>Sight_source</li>
+    </activities>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LeftMechanicalArm</defName>
+    <label>left arm</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
+    <activities>
+      <li>Manipulation_way1</li>
+    </activities>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightMechanicalArm</defName>
+    <label>right arm</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
+    <activities>
+      <li>Manipulation_way1</li>
+    </activities>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>LeftMechanicalLeg</defName>
+    <label>left leg</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
+    <activities>
+      <li>Moving_leftWay1</li>
+    </activities>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightMechanicalLeg</defName>
+    <label>right leg</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
+    <activities>
+      <li>Moving_rightWay1</li>
+    </activities>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>ArtificialBrain</defName>
+    <label>artificial brain</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <spawnThingOnRemoved>ArtificialMechanoidBrain</spawnThingOnRemoved>
+    <activities>
+      <li>Consciousness_brain</li>
+    </activities>
+  </BodyPartDef>
+  
+</Defs>
