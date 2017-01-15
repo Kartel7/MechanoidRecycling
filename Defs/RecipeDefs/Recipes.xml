@@ -19,7 +19,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="RecipeBionicMechanoid">
-        <defName>CreateBionicEye</defName>
+        <defName>MR.CreateBionicEye</defName>
         <label>Craft bionic eye</label>
         <description>Crafts a bionic eye from mechanoid scrap.</description>
         <jobString>Crafting bionic.</jobString>
@@ -63,7 +63,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="RecipeBionicMechanoid">
-        <defName>CreateBionicArm</defName>
+        <defName>MR.CreateBionicArm</defName>
         <label>Craft bionic arm</label>
         <description>Crafts a bionic arm from mechanoid scrap.</description>
         <jobString>Crafting bionic.</jobString>
@@ -115,7 +115,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="RecipeBionicMechanoid">
-        <defName>CreateBionicLeg</defName>
+        <defName>MR.CreateBionicLeg</defName>
         <label>Craft bionic leg</label>
         <description>Crafts a bionic leg from mechanoid scrap.</description>
         <jobString>Crafting bionic.</jobString>
