@@ -41,6 +41,10 @@
         <thingCategories>
             <li>Manufactured</li>
         </thingCategories>
+        <smeltProducts>
+            <Steel>1</Steel>
+            <Plasteel>1</Plasteel>
+        </smeltProducts>
     </ThingDef>
 
     <ThingDef ParentName="ResourceBase">
@@ -62,5 +66,8 @@
         <thingCategories>
             <li>Manufactured</li>
         </thingCategories>
+        <smeltProducts>
+            <Steel>1</Steel>
+        </smeltProducts>
     </ThingDef>
 </ThingDefs>

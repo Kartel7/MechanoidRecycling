@@ -8,5 +8,16 @@
 You dont know what to do with dead mechanoids? Recycle them! Detach bionic arms and legs or full disassemle on electric and hull parts.
 
 You can disassemble mechanoids into its component parts and create of them bionic prostheses.
+
+Features:
+[done] Unconnect bionic arms, legs and eyes from immobilized mechanoids
+[done] Disassemble mechanoid corpses into its parts
+[done] Melt mechanoid parts into metals
+[done] Craft bionic prostheses from mechanoid parts (need 'mechanoid bionics' research)
+[wip] Mechanoid weapons will be drops and can be sold or recycle into metals and something like plasma crystal fragments
+[wip] Plasma crystal fragments will be combined into full crystal for using it into turrets and maybe hand weapons
+[planned] Unconnecting prostheses from human and mechanoid corpses
+[planned] Installing human brain into reconstructed mechanoid (as soon as I learn how to do it)
+[idea] Using artifical mechanoid brain for build improved multi-analyzer
 	</description>
 </ModMetaData>
