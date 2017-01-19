@@ -4,7 +4,7 @@
     <RecipeDef Name="RecipeBionicMechanoid" Abstract="True">
         <workSpeedStat>SmithingSpeed</workSpeedStat>
         <soundWorking>Recipe_Machining</soundWorking>
-        <unfinishedThingDef>UnfinishedProsthesis</unfinishedThingDef>
+        <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
         <workSkill>Crafting</workSkill>
         <workAmount>8000</workAmount>
         <skillRequirements>
@@ -20,7 +20,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="RecipeBionicMechanoid">
-        <defName>MR.CreateBionicEye</defName>
+        <defName>MR-CreateBionicEye</defName>
         <label>Craft bionic eye</label>
         <description>Crafts a bionic eye from mechanoid scrap.</description>
         <jobString>Crafting bionic.</jobString>
@@ -64,7 +64,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="RecipeBionicMechanoid">
-        <defName>MR.CreateBionicArm</defName>
+        <defName>MR-CreateBionicArm</defName>
         <label>Craft bionic arm</label>
         <description>Crafts a bionic arm from mechanoid scrap.</description>
         <jobString>Crafting bionic.</jobString>
@@ -116,7 +116,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="RecipeBionicMechanoid">
-        <defName>MR.CreateBionicLeg</defName>
+        <defName>MR-CreateBionicLeg</defName>
         <label>Craft bionic leg</label>
         <description>Crafts a bionic leg from mechanoid scrap.</description>
         <jobString>Crafting bionic.</jobString>
