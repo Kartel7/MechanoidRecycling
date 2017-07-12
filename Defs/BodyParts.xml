@@ -12,9 +12,9 @@
     <isAlive>false</isAlive>
     <spawnThingOnRemoved>BionicEye</spawnThingOnRemoved>
     <useDestroyedOutLabel>true</useDestroyedOutLabel>
-    <activities>
-      <li>Sight_source</li>
-    </activities>
+    <tags>
+      <li>SightSource</li>
+    </tags>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -28,9 +28,39 @@
     <isAlive>false</isAlive>
     <spawnThingOnRemoved>BionicEye</spawnThingOnRemoved>
     <useDestroyedOutLabel>true</useDestroyedOutLabel>
-    <activities>
-      <li>Sight_source</li>
-    </activities>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftHearingSensor</defName>
+    <label>left hearing sensor</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+	<spawnThingOnRemoved>BionicEar</spawnThingOnRemoved>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightHearingSensor</defName>
+    <label>right hearing sensor</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+	<spawnThingOnRemoved>BionicEar</spawnThingOnRemoved>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -42,9 +72,23 @@
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
     <spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
-    <activities>
-      <li>Manipulation_way1</li>
-    </activities>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftMechanicalHand</defName>
+    <label>left hand</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+	<spawnThingOnRemoved>BionicHand</spawnThingOnRemoved>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+    </tags>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -56,11 +100,25 @@
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
     <spawnThingOnRemoved>BionicArm</spawnThingOnRemoved>
-    <activities>
-      <li>Manipulation_way1</li>
-    </activities>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
   </BodyPartDef>
 
+  <BodyPartDef>
+    <defName>RightMechanicalHand</defName>
+    <label>right hand</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+	<spawnThingOnRemoved>BionicHand</spawnThingOnRemoved>
+    <tags>
+      <li>ManipulationLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  
   <BodyPartDef>
     <defName>LeftMechanicalLeg</defName>
     <label>left leg</label>
@@ -70,9 +128,24 @@
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
     <spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
-    <activities>
-      <li>Moving_leftWay1</li>
-    </activities>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>LeftMechanicalFoot</defName>
+    <label>left foot</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+	<spawnThingOnRemoved>BionicFoot</spawnThingOnRemoved>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
   </BodyPartDef>
 
   <BodyPartDef>
@@ -84,11 +157,26 @@
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
     <spawnThingOnRemoved>BionicLeg</spawnThingOnRemoved>
-    <activities>
-      <li>Moving_rightWay1</li>
-    </activities>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
   </BodyPartDef>
 
+  <BodyPartDef>
+    <defName>RightMechanicalFoot</defName>
+    <label>right foot</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+	<spawnThingOnRemoved>BionicFoot</spawnThingOnRemoved>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  
   <BodyPartDef>
     <defName>ArtificialBrain</defName>
     <label>artificial brain</label>
@@ -98,9 +186,9 @@
     <isSolid>true</isSolid>
     <isAlive>false</isAlive>
     <spawnThingOnRemoved>ArtificialMechanoidBrain</spawnThingOnRemoved>
-    <activities>
-      <li>Consciousness_brain</li>
-    </activities>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
   </BodyPartDef>
   
 </Defs>
