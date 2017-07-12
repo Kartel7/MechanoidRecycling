@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Mechanoid Recycling</name>
-	<targetVersion>0.16.1393</targetVersion>
-	<author>Porohkun</author>
+	<targetVersion>0.17.1557</targetVersion>
+	<author>Porohkun, Gerusz</author>
 	<url></url>
 	<description>
-You dont know what to do with dead mechanoids? Recycle them! Detach bionic arms and legs or full disassemle on electric and hull parts.
+You don't know what to do with dead mechanoids? Recycle them! Detach their bionic arms and legs or completely disassemble them to electric and hull parts.
 
-You can disassemble mechanoids into its component parts and create of them bionic prostheses.
+You can disassemble mechanoids into their component parts and craft bionics using them.
 
 Features:
-[done] Unconnect bionic arms, legs and eyes from immobilized mechanoids
+[done] Detach bionic arms, legs, hands, feet, ears and eyes from immobilized mechanoids
 [done] Disassemble mechanoid corpses into its parts
 [done] Melt mechanoid parts into metals
 [done] Craft bionic prostheses from mechanoid parts (need 'mechanoid bionics' research)
