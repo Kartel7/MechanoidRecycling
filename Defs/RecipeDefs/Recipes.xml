@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
     <RecipeDef Name="RecipeBionicMechanoid" Abstract="True">
         <workSpeedStat>SmithingSpeed</workSpeedStat>
@@ -8,10 +8,7 @@
         <workSkill>Crafting</workSkill>
         <workAmount>8000</workAmount>
         <skillRequirements>
-            <li>
-                <skill>Crafting</skill>
-                <minLevel>7</minLevel>
-            </li>
+            <Crafting>7</Crafting>
         </skillRequirements>
         <recipeUsers>
             <li>TableMachining</li>
@@ -232,4 +229,4 @@
         </recipeUsers>
     </RecipeDef>
 
-</RecipeDefs>
+</Defs>

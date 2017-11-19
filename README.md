@@ -1,6 +1,6 @@
 # Mechanoid Recycling mod for RimWorld
 
-targetVersion 0.16.1393
+targetVersion 0.18.1722
 
 You dont know what to do with death mechanoids? Recycle them! Detach bionic arms and legs or full disassemle on electric and hull parts.
 

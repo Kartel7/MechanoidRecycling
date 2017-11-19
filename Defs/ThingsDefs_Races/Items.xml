@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
     <ThingDef ParentName="BodyPartArtificialBase">
         <defName>ArtificialMechanoidBrain</defName>
@@ -67,4 +67,4 @@
             <Steel>1</Steel>
         </smeltProducts>
     </ThingDef>
-</ThingDefs>
+</Defs>
